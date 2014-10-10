@@ -11,3 +11,5 @@ class CreateContactsAndAddresses < ActiveRecord::Migration
 
   end
 end
+
+# SHWHAAAAATTTT??????
