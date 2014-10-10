@@ -1,18 +1,5 @@
-# get "/contacts" do
-# 	@contacts = Contact.all
-# 	erb :"contacts/index"
-# end
-
-# post "/contacts"
-# 	@contact = Contact.create!(params[:contact])
-# 	erb :"contacts/new"
-# end
-
-# post ""
-
 get '/' do
 	erb :"index"
-	# redirect '/contacts'
 end
 
 get '/contacts' do
